@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         // Protype Code for implementing LRU
@@ -36,6 +36,7 @@ public class Main {
             }
             System.out.println(q);
         }
+        sc.close();
 
     }
 }
